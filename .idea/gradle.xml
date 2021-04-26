@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/clean-arch-java" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/clean-arch-java" />
+            <option value="$PROJECT_DIR$/clean-arch-java/adapter/repository/in-memory-simple" />
+            <option value="$PROJECT_DIR$/clean-arch-java/domain" />
+            <option value="$PROJECT_DIR$/clean-arch-java/usecase" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/clean-arch-java/domain" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/clean-arch-java" />
+            <option value="$PROJECT_DIR$/clean-arch-java/domain" />
+            <option value="$PROJECT_DIR$/clean-arch-java/usecase" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/domain" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
