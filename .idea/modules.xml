@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/clean-arch.iml" filepath="$PROJECT_DIR$/.idea/clean-arch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clean-arch-java.main.iml" filepath="$PROJECT_DIR$/.idea/modules/clean-arch-java.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clean-arch-java.test.iml" filepath="$PROJECT_DIR$/.idea/modules/clean-arch-java.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/in-memory-simple.iml" filepath="$PROJECT_DIR$/.idea/modules/in-memory-simple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/usecase.iml" filepath="$PROJECT_DIR$/.idea/modules/usecase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/manual-app.iml" filepath="$PROJECT_DIR$/.idea/modules/manual-app.iml" />
     </modules>
   </component>
 </project>

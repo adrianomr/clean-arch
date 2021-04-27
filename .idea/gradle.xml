@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -8,18 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/clean-arch-java" />
+            <option value="$PROJECT_DIR$/clean-arch-java/adapter/encoder/sha256" />
+            <option value="$PROJECT_DIR$/clean-arch-java/adapter/id-generator/jug" />
             <option value="$PROJECT_DIR$/clean-arch-java/adapter/repository/in-memory-simple" />
-            <option value="$PROJECT_DIR$/clean-arch-java/domain" />
-            <option value="$PROJECT_DIR$/clean-arch-java/usecase" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/clean-arch-java/domain" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/clean-arch-java" />
+            <option value="$PROJECT_DIR$/clean-arch-java/application/manual-app" />
+            <option value="$PROJECT_DIR$/clean-arch-java/config" />
             <option value="$PROJECT_DIR$/clean-arch-java/domain" />
             <option value="$PROJECT_DIR$/clean-arch-java/usecase" />
           </set>

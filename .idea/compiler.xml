@@ -7,12 +7,20 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.20/18bcea7d5df4d49227b4a0743a536208ce4825bb/lombok-1.18.20.jar" />
         </processorPath>
-        <module name="clean-arch-java.domain.main" />
-        <module name="clean-arch-java.usecase.test" />
-        <module name="clean-arch-java.in-memory-db-simple.test" />
-        <module name="clean-arch-java.usecase.main" />
-        <module name="clean-arch-java.in-memory-db-simple.main" />
+        <module name="clean-arch-java.manual-app.test" />
         <module name="clean-arch-java.domain.test" />
+        <module name="clean-arch-java.encoder-sha256.main" />
+        <module name="clean-arch-java.domain.main" />
+        <module name="clean-arch-java.in-memory-db-simple.test" />
+        <module name="clean-arch-java.encoder-sha256.test" />
+        <module name="clean-arch-java.in-memory-db-simple.main" />
+        <module name="clean-arch-java.config.test" />
+        <module name="clean-arch-java.config.main" />
+        <module name="clean-arch-java.jug.main" />
+        <module name="clean-arch-java.usecase.test" />
+        <module name="clean-arch-java.jug.test" />
+        <module name="clean-arch-java.usecase.main" />
+        <module name="clean-arch-java.manual-app.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
