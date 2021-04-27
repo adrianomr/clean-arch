@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/clean-arch.iml" filepath="$PROJECT_DIR$/.idea/clean-arch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller.iml" filepath="$PROJECT_DIR$/.idea/modules/controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/manual-app.iml" filepath="$PROJECT_DIR$/.idea/modules/manual-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-app.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-app.iml" />
     </modules>
   </component>
 </project>

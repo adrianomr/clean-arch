@@ -11,11 +11,15 @@
         <module name="clean-arch-java.domain.test" />
         <module name="clean-arch-java.encoder-sha256.main" />
         <module name="clean-arch-java.domain.main" />
+        <module name="clean-arch-java.controller.test" />
         <module name="clean-arch-java.in-memory-db-simple.test" />
         <module name="clean-arch-java.encoder-sha256.test" />
         <module name="clean-arch-java.in-memory-db-simple.main" />
+        <module name="clean-arch-java.controller.main" />
+        <module name="clean-arch-java.spring-app.test" />
         <module name="clean-arch-java.config.test" />
         <module name="clean-arch-java.config.main" />
+        <module name="clean-arch-java.spring-app.main" />
         <module name="clean-arch-java.jug.main" />
         <module name="clean-arch-java.usecase.test" />
         <module name="clean-arch-java.jug.test" />
