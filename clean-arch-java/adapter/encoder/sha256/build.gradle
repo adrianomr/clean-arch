@@ -1,0 +1,11 @@
+
+apply plugin: 'java-library'
+
+ext.moduleName = 'org.example.encoder'
+
+dependencies {
+    implementation(
+            project(':usecase'),
+            'commons-codec:commons-codec:1.11'
+    )
+}

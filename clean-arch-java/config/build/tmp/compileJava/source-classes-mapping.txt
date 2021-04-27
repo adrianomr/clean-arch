@@ -1,0 +1,4 @@
+org/example/config/ManualConfig.java
+ org.example.config.ManualConfig
+module-info.java
+ module-info
