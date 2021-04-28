@@ -19,20 +19,4 @@ subprojects {
         testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
     }
 
-    afterEvaluate {
-        repositories {
-            jcenter()
-            mavenCentral()
-        }
-
-        compileJava {
-            inputs.property("moduleName", moduleName)
-            doFirst {
-                options.compilerArgs = [
-                        '--module-path', classpath.asPath,
-                ]
-                classpath = files()
-            }
-        }
-    }
 }

@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/clean-arch-java/adapter/encoder/sha256" />
             <option value="$PROJECT_DIR$/clean-arch-java/adapter/id-generator/jug" />
             <option value="$PROJECT_DIR$/clean-arch-java/adapter/repository/in-memory-simple" />
+            <option value="$PROJECT_DIR$/clean-arch-java/application/grpc-app" />
             <option value="$PROJECT_DIR$/clean-arch-java/application/manual-app" />
             <option value="$PROJECT_DIR$/clean-arch-java/application/spring-app" />
             <option value="$PROJECT_DIR$/clean-arch-java/config" />

@@ -9,3 +9,16 @@ dependencies {
             'commons-codec:commons-codec:1.11'
     )
 }
+
+afterEvaluate {
+
+    compileJava {
+        inputs.property("moduleName", moduleName)
+        doFirst {
+            options.compilerArgs = [
+                    '--module-path', classpath.asPath,
+            ]
+            classpath = files()
+        }
+    }
+}

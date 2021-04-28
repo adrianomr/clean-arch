@@ -23,3 +23,16 @@ dependencies {
             'com.fasterxml.jackson.core:jackson-core:2.9.5',
     )
 }
+
+afterEvaluate {
+
+    compileJava {
+        inputs.property("moduleName", moduleName)
+        doFirst {
+            options.compilerArgs = [
+                    '--module-path', classpath.asPath,
+            ]
+            classpath = files()
+        }
+    }
+}

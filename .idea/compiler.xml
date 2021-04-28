@@ -10,10 +10,12 @@
         <module name="clean-arch-java.manual-app.test" />
         <module name="clean-arch-java.domain.test" />
         <module name="clean-arch-java.encoder-sha256.main" />
+        <module name="clean-arch-java.grpc-app.main" />
         <module name="clean-arch-java.domain.main" />
         <module name="clean-arch-java.controller.test" />
         <module name="clean-arch-java.in-memory-db-simple.test" />
         <module name="clean-arch-java.encoder-sha256.test" />
+        <module name="clean-arch-java.grpc-app.test" />
         <module name="clean-arch-java.in-memory-db-simple.main" />
         <module name="clean-arch-java.controller.main" />
         <module name="clean-arch-java.spring-app.test" />

@@ -14,6 +14,7 @@ include ':controller'
 
 include ':manual-app'
 include ':spring-app'
+include ':grpc-app'
 //include ':vertx-app'
 
 project(":encoder-sha256").projectDir = file("adapter/encoder/sha256")
@@ -27,5 +28,6 @@ project(":controller").projectDir = file("adapter/controller")
 
 project(":manual-app").projectDir = file("application/manual-app")
 project(":spring-app").projectDir = file("application/spring-app")
+project(":grpc-app").projectDir = file("application/grpc-app")
 //project(":vertx-app").projectDir = file("application/vertx-app")
 
