@@ -1,4 +1,0 @@
-org/slalom/example/encoder/Sha256PasswordEncoder.java
- org.slalom.example.encoder.Sha256PasswordEncoder
-module-info.java
- module-info

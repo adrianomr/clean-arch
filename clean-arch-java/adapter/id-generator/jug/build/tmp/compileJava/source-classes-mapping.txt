@@ -1,4 +1,0 @@
-org/example/jug/JugIdGenerator.java
- org.example.jug.JugIdGenerator
-module-info.java
- module-info

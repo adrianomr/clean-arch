@@ -1,6 +1,0 @@
-org/example/config/ManualConfig.java
- org.example.config.ManualConfig
-org/example/config/SpringConfig.java
- org.example.config.SpringConfig
-module-info.java
- module-info

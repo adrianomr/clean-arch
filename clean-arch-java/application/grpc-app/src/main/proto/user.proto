@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package org.example.grpc;
+
+option java_multiple_files = true;
+option java_package = "org.example.grpc.user";
+
+// The User service definition.
+service UserService {
+    rpc FindAll (Empty) returns (ListUserResponse) {}
+    rpc FindOne (userId) returns (UserResponse) {}
+    rpc Save (UserRequest) returns (UserResponse) {}
+}
+
+message userId{
+    string id = 1;
+}
+
+message Empty{
+
+}
+
+message UserRequest {
+    string email = 1;
+    string password = 2;
+    string lastName = 3;
+    string firstName = 4;
+}
+
+// The response message containing the Users
+message UserResponse {
+    string id = 1;
+    string email = 2;
+    string lastName = 3;
+    string firstName = 4;
+}
+
+message ListUserResponse {
+    repeated UserResponse results = 1;
+}

@@ -4,4 +4,5 @@ module org.example.controller {
 
     requires org.example.usecase;
     requires org.example.domain;
+    requires lombok;
 }
